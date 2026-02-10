@@ -1,0 +1,51 @@
+{
+  "dataset": "motion-photos",
+  "version": 1,
+  "source": "https://github.com/ente-io/motion_photos",
+  "files": [
+    {
+      "path": "files/motionphoto.jpg",
+      "sha256": "184d19ffd3279b688e30408c64dccfb73f8329fa4aca6530b528efc62871e226",
+      "size": 8013982,
+      "expected": {
+        "is_motion_photo": true,
+        "video_index_start": 3366251,
+        "video_index_end": 8013982
+      }
+    },
+    {
+      "path": "files/motionphoto.heic",
+      "sha256": "1f99b641209f101c78e038a0a2e150e85ad4c48496887c767274f120a424274e",
+      "size": 3649069,
+      "expected": {
+        "is_motion_photo": true,
+        "video_index_start": 1455411,
+        "video_index_end": 3649069
+      }
+    },
+    {
+      "path": "files/pixel_6_small_video.jpg",
+      "sha256": "f5e0aec2d8512c5de56eb4cb6b822312e0cc0c7dc1c5416b9a24597c1b78baf8",
+      "size": 4499144,
+      "expected": {
+        "is_motion_photo": true
+      }
+    },
+    {
+      "path": "files/pixel_8.jpg",
+      "sha256": "2377e48d9a9c051a9c50b451258d6d21d161ceec2de89d1ca020b9b924d868d5",
+      "size": 267463,
+      "expected": {
+        "is_motion_photo": false
+      }
+    },
+    {
+      "path": "files/normalphoto.jpg",
+      "sha256": "107d925ccfd0a6bca3629b116cb0fe97e57aa5c60ec0cd7b76fb5034c6b67ec6",
+      "size": 8253,
+      "expected": {
+        "is_motion_photo": false
+      }
+    }
+  ]
+}
