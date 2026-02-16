@@ -1,0 +1,314 @@
+{
+  "dataset": "ml-indexing",
+  "files": [
+    {
+      "coverage_tags": [
+        "jpeg",
+        "orientation",
+        "rotate_90_cw"
+      ],
+      "expected": {
+        "exif": {
+          "image_height": 2835,
+          "image_width": 2200,
+          "orientation": "Rotate 90 CW"
+        },
+        "indexing": {
+          "contains_text": true,
+          "faces_present": true
+        }
+      },
+      "mime_type": "image/jpeg",
+      "path": "files/1343_rotate_90_cw.jpg",
+      "sha256": "58a0ed2c14f781cce1121a31fda990e7a9caf7b1cbcf11f946857ca5ed174537",
+      "size": 2883662
+    },
+    {
+      "coverage_tags": [
+        "heic",
+        "orientation",
+        "rotate_90_cw"
+      ],
+      "expected": {
+        "exif": {
+          "image_height": 3504,
+          "image_width": 2440,
+          "orientation": "Rotate 90 CW"
+        },
+        "indexing": {
+          "contains_text": false,
+          "faces_present": true
+        }
+      },
+      "mime_type": "image/heic",
+      "path": "files/1718_rotate_90_cw.HEIC",
+      "sha256": "7680b1b6009c7adec43aebf75738fb03dd0679ab1fd5a59db6f798ac8060fac1",
+      "size": 4983539
+    },
+    {
+      "coverage_tags": [
+        "heic",
+        "orientation",
+        "horizontal_normal"
+      ],
+      "expected": {
+        "exif": {
+          "image_height": 4334,
+          "image_width": 3250,
+          "orientation": "Horizontal (normal)"
+        },
+        "indexing": {
+          "contains_text": false,
+          "faces_present": false
+        }
+      },
+      "mime_type": "image/heic",
+      "path": "files/7765_horizontal_normal.HEIC",
+      "sha256": "6a1bdb4b6d06d6d3ffa40e35902bb14d0708f1de327b38f74b234b262cfecbdd",
+      "size": 4900407
+    },
+    {
+      "coverage_tags": [
+        "heic",
+        "orientation",
+        "mirror_horizontal",
+        "rotate_270_cw"
+      ],
+      "expected": {
+        "exif": {
+          "image_height": 1548,
+          "image_width": 1210,
+          "orientation": "Mirror horizontal and rotate 270 CW"
+        },
+        "indexing": {
+          "contains_text": false,
+          "faces_present": true
+        }
+      },
+      "mime_type": "image/heic",
+      "path": "files/7949_mirror_horizontal_rotate_270_cw.HEIC",
+      "sha256": "94d2e8396114479cc19b3fc54ecb0f9702e0253cfacf47efe7b2cb083261038f",
+      "size": 657724
+    },
+    {
+      "coverage_tags": [
+        "heic",
+        "panorama"
+      ],
+      "expected": {
+        "exif": {
+          "image_height": 3826,
+          "image_width": 14604,
+          "orientation": "Horizontal (normal)",
+          "quicktime_rotation_degrees": 0
+        },
+        "indexing": {
+          "contains_text": false,
+          "faces_present": true
+        }
+      },
+      "mime_type": "image/heic",
+      "path": "files/IMG_0682_pano.HEIC",
+      "sha256": "421880549246551f71c78b973960ed6e6c2901af87c2abddd258638a82a319db",
+      "size": 7881238
+    },
+    {
+      "coverage_tags": [
+        "heic",
+        "orientation",
+        "rotate_90_cw",
+        "contains_text"
+      ],
+      "expected": {
+        "exif": {
+          "image_height": 3024,
+          "image_width": 4032,
+          "orientation": "Rotate 90 CW",
+          "quicktime_rotation_degrees": 270
+        },
+        "indexing": {
+          "contains_text": true,
+          "faces_present": false
+        },
+        "notes": "Local HEIC decoder cannot render this auxiliary-image variant; text expectation is based on fixture intent and metadata."
+      },
+      "mime_type": "image/heic",
+      "path": "files/IMG_8606_rotate_90_cw_contains_text.HEIC",
+      "sha256": "f0cc163af8dff0737152616caf5959ec6e404e92bcfe4bdd9797169b2b3d3037",
+      "size": 1404763
+    },
+    {
+      "coverage_tags": [
+        "raw",
+        "cr2"
+      ],
+      "expected": {
+        "exif": {
+          "image_height": 3456,
+          "image_width": 5184,
+          "orientation": "Horizontal (normal)"
+        },
+        "indexing": {
+          "contains_text": false,
+          "faces_present": true
+        }
+      },
+      "mime_type": "image/x-canon-cr2",
+      "path": "files/IMG_8905.CR2",
+      "sha256": "31339ecb9850138bfa7ad98404e5b429045b0db45ef02773290829ded53fd306",
+      "size": 26356626
+    },
+    {
+      "coverage_tags": [
+        "jpeg",
+        "panorama"
+      ],
+      "expected": {
+        "exif": {
+          "image_height": 1280,
+          "image_width": 7872,
+          "orientation": "Unknown (0)"
+        },
+        "indexing": {
+          "contains_text": false,
+          "faces_present": true
+        }
+      },
+      "mime_type": "image/jpeg",
+      "path": "files/IMG_pano.jpg",
+      "sha256": "1d17c9e5983a8784b6a805885b735705b8644190b592a66505e62536783c7b47",
+      "size": 6222699
+    },
+    {
+      "coverage_tags": [
+        "png"
+      ],
+      "expected": {
+        "exif": {
+          "image_height": 512,
+          "image_width": 512,
+          "orientation": null
+        },
+        "indexing": {
+          "contains_text": false,
+          "faces_present": true
+        }
+      },
+      "mime_type": "image/png",
+      "path": "files/astronaut.png",
+      "sha256": "2418889d0d83962d51facc3832b55cf1849690018a1e873d1c551146555cd02f",
+      "size": 424520
+    },
+    {
+      "coverage_tags": [
+        "jpeg",
+        "small_image",
+        "portrait"
+      ],
+      "expected": {
+        "exif": {
+          "image_height": 183,
+          "image_width": 275,
+          "orientation": null
+        },
+        "indexing": {
+          "contains_text": false,
+          "faces_present": true
+        }
+      },
+      "mime_type": "image/jpeg",
+      "path": "files/man.jpeg",
+      "sha256": "f366fe66a02c132c3ed8e65ef49475f483a5a879db170e7de6eb02edcf2ef97e",
+      "size": 4120
+    },
+    {
+      "coverage_tags": [
+        "jpeg",
+        "small_image",
+        "people"
+      ],
+      "expected": {
+        "exif": {
+          "image_height": 183,
+          "image_width": 275,
+          "orientation": null
+        },
+        "indexing": {
+          "contains_text": false,
+          "faces_present": true
+        }
+      },
+      "mime_type": "image/jpeg",
+      "path": "files/people.jpeg",
+      "sha256": "2fdb1c7c7ae8007662b5c9e9ddcec7677b0090884ca8b8a5da3d1020f153a8f5",
+      "size": 9012
+    },
+    {
+      "coverage_tags": [
+        "jpeg",
+        "cityscape",
+        "landscape"
+      ],
+      "expected": {
+        "exif": {
+          "image_height": 1200,
+          "image_width": 1920,
+          "orientation": null
+        },
+        "indexing": {
+          "contains_text": false,
+          "faces_present": false
+        }
+      },
+      "mime_type": "image/jpeg",
+      "path": "files/singapore.jpg",
+      "sha256": "cfc5b98ec69a65f04b0e4bb7c06009ad6d43362773a5b546c19a48e467a8bf95",
+      "size": 613520
+    },
+    {
+      "coverage_tags": [
+        "jpeg",
+        "low_light",
+        "night_scene"
+      ],
+      "expected": {
+        "exif": {
+          "image_height": 724,
+          "image_width": 500,
+          "orientation": null
+        },
+        "indexing": {
+          "contains_text": false,
+          "faces_present": true
+        }
+      },
+      "mime_type": "image/jpeg",
+      "path": "files/starwatchers.jpg",
+      "sha256": "4126a2c940110dfce7dc697ab6a430bcabaca038eccc52a260a7f2e6070d36ad",
+      "size": 85936
+    },
+    {
+      "coverage_tags": [
+        "webp",
+        "ui_screenshot"
+      ],
+      "expected": {
+        "exif": {
+          "image_height": 1974,
+          "image_width": 1070,
+          "orientation": null
+        },
+        "indexing": {
+          "contains_text": true,
+          "faces_present": true
+        }
+      },
+      "mime_type": "image/webp",
+      "path": "files/ui_app.webp",
+      "sha256": "3ac62b0b9972ef82daa7554b86f4cfbda9c758dc4aa0df80818389d5306cb268",
+      "size": 120022
+    }
+  ],
+  "source": "local-curated",
+  "version": 1
+}
