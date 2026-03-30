@@ -56,6 +56,16 @@
         "video_index_start": 3590234,
         "video_index_end": 7638778
       }
+    },
+    {
+      "path": "files/dual_mp4_video_first.jpg",
+      "sha256": "64e3324d0a46a7ec28c30a25b78c5838d592b6ed81fc2e1c907fa4009d0cdb9b",
+      "size": 8832298,
+      "expected": {
+        "is_motion_photo": true,
+        "video_index_start": 2708585,
+        "video_index_end": 7890703
+      }
     }
   ]
 }
