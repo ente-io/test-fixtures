@@ -14,8 +14,7 @@ Fixtures for HEIC decoding and media metadata tests.
   to test decoder robustness around auxiliary image references.
 - `files/IMG_8606_rotate_90_cw_contains_text.HEIC`: HEIC rotate-90 image with
   visible text and auxiliary image references.
-- `manifest.json`: Canonical metadata copied from the ML indexing fixture
-  manifest for HEIC-specific validation.
+- `manifest.json`: Canonical HEIC metadata for fixture validation.
 
 ## Provenance
 

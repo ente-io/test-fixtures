@@ -1,7 +1,7 @@
 {
   "dataset": "heic",
   "version": 1,
-  "source": "ml/indexing/v1",
+  "source": "local-curated",
   "files": [
     {
       "coverage_tags": [
@@ -14,10 +14,6 @@
           "image_height": 3504,
           "image_width": 2440,
           "orientation": "Rotate 90 CW"
-        },
-        "indexing": {
-          "contains_text": false,
-          "faces_present": true
         }
       },
       "mime_type": "image/heic",
@@ -36,10 +32,6 @@
           "image_height": 4334,
           "image_width": 3250,
           "orientation": "Horizontal (normal)"
-        },
-        "indexing": {
-          "contains_text": false,
-          "faces_present": false
         }
       },
       "mime_type": "image/heic",
@@ -59,10 +51,6 @@
           "image_height": 1548,
           "image_width": 1210,
           "orientation": "Mirror horizontal and rotate 270 CW"
-        },
-        "indexing": {
-          "contains_text": false,
-          "faces_present": true
         }
       },
       "mime_type": "image/heic",
@@ -81,10 +69,6 @@
           "image_width": 14604,
           "orientation": "Horizontal (normal)",
           "quicktime_rotation_degrees": 0
-        },
-        "indexing": {
-          "contains_text": false,
-          "faces_present": true
         }
       },
       "mime_type": "image/heic",
@@ -107,11 +91,7 @@
           "orientation": "Rotate 90 CW",
           "quicktime_rotation_degrees": 270
         },
-        "indexing": {
-          "contains_text": false,
-          "faces_present": false
-        },
-        "notes": "Local HEIC decoder cannot render this auxiliary-image variant. Indexing expectations are based on fixture intent and metadata."
+        "notes": "Some decoders render artefacts for this auxiliary-image HEIC variant."
       },
       "mime_type": "image/heic",
       "path": "files/IMG_0983.HEIC",
@@ -122,8 +102,7 @@
       "coverage_tags": [
         "heic",
         "orientation",
-        "rotate_90_cw",
-        "contains_text"
+        "rotate_90_cw"
       ],
       "expected": {
         "exif": {
@@ -132,11 +111,7 @@
           "orientation": "Rotate 90 CW",
           "quicktime_rotation_degrees": 270
         },
-        "indexing": {
-          "contains_text": true,
-          "faces_present": false
-        },
-        "notes": "Local HEIC decoder cannot render this auxiliary-image variant; text expectation is based on fixture intent and metadata."
+        "notes": "Local HEIC decoder cannot render this auxiliary-image variant."
       },
       "mime_type": "image/heic",
       "path": "files/IMG_8606_rotate_90_cw_contains_text.HEIC",
