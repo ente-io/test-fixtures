@@ -117,6 +117,32 @@
         "heic",
         "orientation",
         "rotate_90_cw",
+        "low_light",
+        "auxiliary_image"
+      ],
+      "expected": {
+        "exif": {
+          "image_height": 3024,
+          "image_width": 4032,
+          "orientation": "Rotate 90 CW",
+          "quicktime_rotation_degrees": 270
+        },
+        "indexing": {
+          "contains_text": false,
+          "faces_present": false
+        },
+        "notes": "Local HEIC decoder cannot render this auxiliary-image variant. Indexing expectations are based on fixture intent and metadata."
+      },
+      "mime_type": "image/heic",
+      "path": "files/IMG_0983.HEIC",
+      "sha256": "86e822141cd944861c96e270b06bc8742adab958c0e83bf676a569ffbbcbf9e3",
+      "size": 1120965
+    },
+    {
+      "coverage_tags": [
+        "heic",
+        "orientation",
+        "rotate_90_cw",
         "contains_text"
       ],
       "expected": {

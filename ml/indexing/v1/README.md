@@ -10,6 +10,9 @@ Fixtures for ML image indexing coverage tests.
 - `files/7949_mirror_horizontal_rotate_270_cw.HEIC`: HEIC mirrored and rotated
   270 degrees clockwise.
 - `files/IMG_0682_pano.HEIC`: HEIC panorama image.
+- `files/IMG_0983.HEIC`: HEIC rotate-90 low-light photo taken on an
+  iPhone 17 Pro. It can produce artefacts on some decoders, so it is included
+  to test decoder robustness around auxiliary image references.
 - `files/IMG_8606_rotate_90_cw_contains_text.HEIC`: HEIC rotate-90 image with
   visible text.
 - `files/IMG_8905.CR2`: Canon RAW (CR2) image.
@@ -26,4 +29,5 @@ Fixtures for ML image indexing coverage tests.
 ## Provenance
 
 Curated locally for indexing pipeline coverage across formats, orientation
-variants, panoramas, text-containing images, low-light scenes, and RAW input.
+variants, panoramas, auxiliary-image HEIC variants, text-containing images,
+low-light scenes, and RAW input.
