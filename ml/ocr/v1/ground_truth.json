@@ -1,0 +1,225 @@
+{
+  "meme_perfect_couple.jpeg": {
+    "requiredTexts": ["circulation", "space heater", "perfect couple"],
+    "minimumBlocks": 2,
+    "texts": [
+      "Has poor circulation",
+      "Is basically a space heater",
+      "The perfect couple"
+    ],
+    "description": "Stick figure meme about temperature compatibility"
+  },
+  "meme_ice_cream.jpeg": {
+    "requiredTexts": ["how she looks", "ice cream"],
+    "minimumBlocks": 2,
+    "texts": [
+      "HOW SHE LOOKS AT YOU WHEN YOU SAY",
+      "YOU DON'T WANT TO GET ICE-CREAM"
+    ],
+    "description": "Meme with white animal looking at camera"
+  },
+  "meme_love_you.jpeg": {
+    "requiredTexts": ["nobody", "love you"],
+    "minimumBlocks": 2,
+    "texts": [
+      "Nobody:",
+      "Me randomly when I love you",
+      "Source: @BeamCardShop"
+    ],
+    "description": "Pokemon meme with Snorlax"
+  },
+  "meme_waking_up.jpeg": {
+    "requiredTexts": ["waking up", "beautiful face"],
+    "minimumBlocks": 2,
+    "texts": [
+      "Him: \"I love waking up next to you and seeing your beautiful face\"",
+      "Me waking up:"
+    ],
+    "description": "Meme with distorted face image"
+  },
+  "ocr_test.jpeg": {
+    "requiredTexts": ["Restaurant", "Burritos", "385"],
+    "iosRequiredTexts": ["HÓA ĐƠN"],
+    "androidRequiredTexts": ["HOA DON"],
+    "minimumBlocks": 5,
+    "texts": [
+      "Restaurant",
+      "Thắng Tú, thị trấn Cát Bà",
+      "0934674899",
+      "HÓA ĐƠN",
+      "Số: 1902019689",
+      "2019 (03:12 CH - 03:46 CH)",
+      "Bàn: Nguyen Thi Mai",
+      "Tên hàng",
+      "SL",
+      "Đơn giá",
+      "TT",
+      "1",
+      "Burritos (Gà)",
+      "1",
+      "115.000",
+      "115.000",
+      "2",
+      "Veggie burger (Chay)",
+      "1",
+      "75.000",
+      "75.000",
+      "3",
+      "Chicken curry (Cà ri gà)",
+      "1",
+      "95.000",
+      "95.000",
+      "4",
+      "Coca light",
+      "1",
+      "20.000",
+      "20.000",
+      "5",
+      "Lemon juice (Nước chanh)",
+      "1",
+      "35.000",
+      "35.000",
+      "6",
+      "Pasion milk shakes (sinh tố chanh leo)",
+      "1",
+      "45.000",
+      "45.000",
+      "Tổng thanh toán",
+      "385.000đ",
+      "Tiền phải thu",
+      "385.000đ",
+      "Trân trọng cảm ơn!"
+    ],
+    "description": "Vietnamese restaurant receipt"
+  },
+  "screen_photos.jpeg": {
+    "requiredTexts": [
+      "terugbetalen",
+      "bankrekeningnummer",
+      "Dienst Uitvoering"
+    ],
+    "minimumBlocks": 5,
+    "texts": [
+      "Kan ik alvast beginnen met terugbetalen?",
+      "Antwoord",
+      "Ja, je mag al eerder beginnen met het terugbetalen van je lening.",
+      "Als je tijdens, of direct na afloop van je studie al wilt beginnen met terugbetalen, doe dit dan onder vermelding van het volgende betalingskenmerk: je burgerservicenummer-64. Vermeld het betalingskenmerk in het veld 'Omschrijving' of 'Mededeling' (niet bij 'Betalingskenmerk acceptgiro').",
+      "Je kunt het geld overmaken naar bankrekeningnummer NL45 INGB 0705 0019 03 ten name van de Dienst Uitvoering Onderwijs in Groningen.",
+      "Wil je het totale bedrag van je lening ineens terugbetalen? Dan adviseren we je om contact op te nemen met ons. We berekenen dan het totale bedrag dat je kunt overmaken om de gehele schuld af te lossen.",
+      "Voor meer informatie over het meegeven van de juiste omschrijving bij andere betalingen, zie de onderstaande gerelateerde vraag."
+    ],
+    "description": "Dutch government website FAQ about student loan repayment"
+  },
+  "text_photos.jpeg": {
+    "requiredTexts": ["houd moed", "eindeloos liefgehad", "Ingmar Heytze"],
+    "minimumBlocks": 5,
+    "texts": [
+      "Ik ken u niet, u kent mij niet.",
+      "We zijn de regels op een doek",
+      "en bieden zo voor wie het ziet,",
+      "een sprakeloos samenkomen",
+      "dat licht geeft over ons pad.",
+      "Want wat ons werd ontnomen",
+      "hebben we eindeloos liefgehad.",
+      "Dit zijn de woorden waar ik uit besta:",
+      "houd moed, heb lief, geef nooit op -",
+      "als het slecht gaat, komt het beter.",
+      "vrij naar Ingmar Heytze",
+      "Aandacht voor elkaar",
+      "Foto: Pieter van den Akker"
+    ],
+    "description": "Dutch poetry on outdoor sign/poster"
+  },
+  "receipt_swiggy.jpg": {
+    "requiredTexts": ["Salad Days", "Grand Total", "Delivery Passcode"],
+    "minimumBlocks": 5,
+    "texts": [
+      "PAID",
+      "Salad Days Marathahalli",
+      "Salad days",
+      "From Swiggy[213720428364415]",
+      "Name: niharika",
+      "Date: 09/08/25",
+      "Delivery",
+      "20:17",
+      "Bill No.: 37686",
+      "Cashier:",
+      "Autoaccept",
+      "Token No.: 128",
+      "Item",
+      "Qty.",
+      "Price Amou",
+      "Chicken BBQ Sandwich (Olive & Herb Sourdough Baguette)",
+      "1",
+      "499.00",
+      "EXTRA CHEESE: Parmesan Chees - 1x40 = 40,",
+      "BAGUETTE EXTRAS: Caramelised Onion - 1x30 = 30,",
+      "BAGUETTE EXTRAS: Chicken - 1x100 = 100,",
+      "BAGUETTE EXTRAS: Salsa (1 Cup - 1x30 = 30",
+      "Total Qty: 1",
+      "Sub Total",
+      "Discount Fixed",
+      "Container Charge",
+      "CGST 2.5%",
+      "SGST 2.5%",
+      "Grand Total",
+      "Paid via Online [Swiggy]",
+      "Customer Note: Don't send cutlery Reward Type : 40% off",
+      "Tax to be paid under section 9(5) by Eco",
+      "Delivery Passcode: 6520",
+      "Scan to Mark food ready:",
+      "213720428364415",
+      "Pickup barcode for Swiggy delivery partne",
+      "Thanks"
+    ],
+    "description": "Swiggy food delivery receipt from Salad Days; content along the right edge is cropped"
+  },
+  "bob_ios_detection_issue.JPEG": {
+    "requiredTexts": ["Dear Customer", "Voucher Code", "Expiry Date"],
+    "minimumBlocks": 5,
+    "texts": [
+      "Dear Customer",
+      "Swiggy Money Voucher Gift Code",
+      "Voucher Code",
+      "Value: 2000.00",
+      "Expiry Date: 18 Apr 2026"
+    ],
+    "description": "WhatsApp screenshot that previously lost iOS detections"
+  },
+  "heic_test.HEIC": {
+    "requiredTexts": ["HDFC BANK", "SCAN & PAY", "UPI"],
+    "minimumBlocks": 3,
+    "texts": [
+      "pine labs",
+      "HDFC BANK",
+      "SCAN & PAY",
+      "UPI ID",
+      "INDWELL RETAIL PRIVATE LIM EXHKQYAT"
+    ],
+    "description": "HEIC photo of an HDFC UPI payment sign"
+  },
+  "ocr_working.jpg": {
+    "requiredTexts": ["SX100", "230V 50Hz", "440011500057945"],
+    "minimumBlocks": 3,
+    "texts": [
+      "SX100",
+      "L12B2",
+      "1000imp/kWh",
+      "0.25-5(40)A 230V 50Hz",
+      "440011500057945"
+    ],
+    "description": "Electric meter photo that was reported to detect text"
+  },
+  "ocr_not_working.jpg": {
+    "requiredTexts": ["gmail.com", "06 70 327 3227", "Bodajk"],
+    "minimumBlocks": 3,
+    "texts": [
+      "LiliVirág Kertészet",
+      "06 70 327 3227",
+      "alkatreszfutar@gmail.com",
+      "8053 Bodajk, Dózsa Gy. u.",
+      "H-P: 8-12, 13-17, Szo.: 8-12"
+    ],
+    "description": "Business card photo that was reported to miss text"
+  }
+}
