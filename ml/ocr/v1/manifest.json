@@ -1,0 +1,147 @@
+{
+  "dataset": "ml-ocr",
+  "version": 1,
+  "source": "https://github.com/ente/mobile_ocr/tree/0c68f88f20607cfcb10286422860350ccb024acd/example/assets/test_ocr",
+  "expectations": "ground_truth.json",
+  "files": [
+    {
+      "coverage_tags": [
+        "jpeg",
+        "screenshot",
+        "regression",
+        "english"
+      ],
+      "mime_type": "image/jpeg",
+      "path": "files/bob_ios_detection_issue.JPEG",
+      "sha256": "6d4ccf020a7fdb5b9a0b081ec13f3c3d5cb7469f49d148f324fb6d91d4982b64",
+      "size": 365892
+    },
+    {
+      "coverage_tags": [
+        "heic",
+        "photographed_text",
+        "english"
+      ],
+      "mime_type": "image/heic",
+      "path": "files/heic_test.HEIC",
+      "sha256": "7eeafb4fd891c15e345fed1af05cd754de974a80a4cf90642f476b9bd5c339b7",
+      "size": 1432057
+    },
+    {
+      "coverage_tags": [
+        "jpeg",
+        "meme",
+        "english"
+      ],
+      "mime_type": "image/jpeg",
+      "path": "files/meme_ice_cream.jpeg",
+      "sha256": "cdfe77bacdf81c1c6947255c18cb274417bb508986fa02e18b662f2aa09fdc2e",
+      "size": 33509
+    },
+    {
+      "coverage_tags": [
+        "jpeg",
+        "meme",
+        "english"
+      ],
+      "mime_type": "image/jpeg",
+      "path": "files/meme_love_you.jpeg",
+      "sha256": "72af28a06fe8cd10c93a2ee20d55393e784e853786580753369c2e8c25e97f37",
+      "size": 67333
+    },
+    {
+      "coverage_tags": [
+        "jpeg",
+        "meme",
+        "english"
+      ],
+      "mime_type": "image/jpeg",
+      "path": "files/meme_perfect_couple.jpeg",
+      "sha256": "bc56efdf07bcc676ed6c05341ccfab030f429671435dd2ee097efc22b0c061f0",
+      "size": 53303
+    },
+    {
+      "coverage_tags": [
+        "jpeg",
+        "meme",
+        "english"
+      ],
+      "mime_type": "image/jpeg",
+      "path": "files/meme_waking_up.jpeg",
+      "sha256": "d9ff00f8a5638dd350bd909b9edbe92629036903befe968bbad3af41d6a43b82",
+      "size": 48154
+    },
+    {
+      "coverage_tags": [
+        "jpeg",
+        "photographed_text",
+        "regression",
+        "hungarian"
+      ],
+      "mime_type": "image/jpeg",
+      "path": "files/ocr_not_working.jpg",
+      "sha256": "f946100e35f8ffcae02742ae3c9ebdb83bb45141bbeb5dfb655bf55392e71cbd",
+      "size": 3073652
+    },
+    {
+      "coverage_tags": [
+        "jpeg",
+        "receipt",
+        "vietnamese",
+        "multilingual"
+      ],
+      "mime_type": "image/jpeg",
+      "path": "files/ocr_test.jpeg",
+      "sha256": "eee25d002668b9a475665dc249dfe67f3b5558306df4852bb9874e6ccfd868e9",
+      "size": 242608
+    },
+    {
+      "coverage_tags": [
+        "jpeg",
+        "photographed_text",
+        "regression",
+        "alphanumeric"
+      ],
+      "mime_type": "image/jpeg",
+      "path": "files/ocr_working.jpg",
+      "sha256": "a5f7621be27b7a690f07ef2eb055e6f5cdaece96015f9d7adccca616bc89fceb",
+      "size": 901700
+    },
+    {
+      "coverage_tags": [
+        "jpeg",
+        "receipt",
+        "currency",
+        "english"
+      ],
+      "mime_type": "image/jpeg",
+      "path": "files/receipt_swiggy.jpg",
+      "sha256": "d64e58ee95080b9ccc12370db5b0d8515a44f02f5655758769bc7e356e48c4da",
+      "size": 1349641
+    },
+    {
+      "coverage_tags": [
+        "jpeg",
+        "screenshot",
+        "dense_text",
+        "dutch"
+      ],
+      "mime_type": "image/jpeg",
+      "path": "files/screen_photos.jpeg",
+      "sha256": "03d011d186dc7794fcc85f59de20ea220bb79813ec8dedbd830b11158ffc776c",
+      "size": 628765
+    },
+    {
+      "coverage_tags": [
+        "jpeg",
+        "photographed_text",
+        "dense_text",
+        "dutch"
+      ],
+      "mime_type": "image/jpeg",
+      "path": "files/text_photos.jpeg",
+      "sha256": "9016943f768b79564d3fb8ea0905f0ffa583223f369e82b0a66b848a0f90e07c",
+      "size": 414186
+    }
+  ]
+}
